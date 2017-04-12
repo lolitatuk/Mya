@@ -13,6 +13,10 @@ array( 'main-menu' => __( 'Main Menu', 'blankslate' ) )
 );
 }
 add_action( 'wp_enqueue_scripts', 'blankslate_load_scripts' );
+function wpb_session_menu() {
+  register_nav_menu('session-menu',__( 'Menu Sesion' ));
+}
+add_action( 'init', 'wpb_session_menu' );
 function blankslate_load_scripts()
 {
 wp_enqueue_script( 'jquery' );
