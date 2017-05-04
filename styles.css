@@ -80,3 +80,24 @@ body{
 .welcomeLogo {
 	margin-left: -2%;
 }
+.firstColumn{
+	margin-left: 47px;
+    margin-top: 18px;
+}
+.secondColumn{
+	margin-top: 18px;
+	margin-left:-43px;
+}
+.g2{
+	margin-top: 18px;
+}
+.centralSlider{
+	height: 527px;
+}
+.thirdColumn{
+	margin-left: -44px;
+	margin-top: 18px;
+}
+.g5{
+	margin-top: 18px;
+}
