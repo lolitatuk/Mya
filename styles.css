@@ -43,9 +43,12 @@ body{
 }
 .header{
 	height: 82px;
+	max-height: 82px;
 	background-image: url("images/fondoHeader.png");
-	font-family: "CURLZ";
 	font-size: 60px;
+}
+.header{
+	font-family: "CURLZ";
 }
 .header a {
 	margin-left: 36px;
@@ -81,21 +84,33 @@ body{
 	margin-left: -2%;
 }
 .firstColumn{
-	margin-left: 47px;
     margin-top: 18px;
 }
-.secondColumn{
+.containerSlider{
 	margin-top: 18px;
-	margin-left:-43px;
 }
 .g2{
 	margin-top: 18px;
 }
-.centralSlider{
+.containerSlider{
 	height: 527px;
+	overflow: hidden;
+}
+.pagesContainer{
+    width: 500%;
+    position: relative;
+    overflow: hidden;
+}
+.sliderSheet{
+	float: left;
+	height: 527px;
+	width: 20%;
+	}
+.imgSlider{
+	max-height: 100%;
+	max-width: 100%;
 }
 .thirdColumn{
-	margin-left: -44px;
 	margin-top: 18px;
 }
 .g5{
