@@ -86,7 +86,7 @@ body{
 .firstColumn{
     margin-top: 18px;
 }
-.g2{
+.containerSlider{
 	margin-top: 18px;
 }
 .containerSlider{
@@ -133,6 +133,9 @@ body{
 .thirdColumn{
 	margin-top: 18px;
 }
-.g5{
-	margin-top: 18px;
+.categoryContainer{
+	height: 255px;
+}
+.imgSetup{
+	height: 100%;
 }
