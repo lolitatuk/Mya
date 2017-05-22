@@ -54,9 +54,6 @@ body{
 	margin-left: 36px;
 	color: black;
 }
-.secondMenu{
-
-}
 .secondMenu ul{
 	text-align: right;
 	font-family: "trebuc";
@@ -115,4 +112,27 @@ body{
 }
 .g5{
 	margin-top: 18px;
+}
+.categoryContainer{
+	height: 255px;
+	background-color: rgba(102, 204, 204, 0.5);
+}
+.imgSetup{
+	height: 100%;
+}
+.boxPar{
+	height: 255px;
+	background-color: rgba(102, 204, 204, 0.5);
+	float: left;
+}
+.storeMenu{
+	text-align: left;
+	font-family: "trebuc";
+}
+.storeMenu li{
+	border: black solid 3px;
+}
+.storeMenu li a {
+	display: block;
+	text-align: left;
 }
